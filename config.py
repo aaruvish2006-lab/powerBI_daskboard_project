@@ -8,6 +8,7 @@ class Config:
     """Base configuration."""
     # General
     APP_NAME = os.getenv("APP_NAME", "MyAwesomeApp")
+    print("This is updated config file.")
     DEBUG = False
     TESTING = False
     
